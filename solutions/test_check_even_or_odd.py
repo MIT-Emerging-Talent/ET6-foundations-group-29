@@ -2,8 +2,9 @@
 import unittest
 from even_odd_checker import check_even_or_odd
 
+
 class TestCheckEvenOrOdd(unittest.TestCase):
-    
+
     def test_even_number(self):
         result = check_even_or_odd(4)
         self.assertEqual(result, "even")
@@ -27,6 +28,7 @@ class TestCheckEvenOrOdd(unittest.TestCase):
     def test_invalid_input(self):
         with self.assertRaises(TypeError):
             check_even_or_odd("not_a_number")
+
 
 if __name__ == "__main__":
     unittest.main()

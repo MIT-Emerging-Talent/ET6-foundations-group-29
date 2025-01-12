@@ -3,6 +3,7 @@ Author: @msrak
 Created on: January 8, 2024.
 """
 
+
 def check_even_or_odd(number):
     """
     The check_even_or_odd function takes a number as input and determines whether it is even or odd.
